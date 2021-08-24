@@ -35,7 +35,7 @@ songstatus.set("choosing")
 playlist=Listbox(root,selectmode=SINGLE,bg="DodgerBlue2",fg="white",font=('arial',15),width=40)
 playlist.grid(columnspan=5)
 
-os.chdir(r'F:\music from my phone\SnapTube Audio\niceeeee')
+os.chdir(r'F:\music from my phone\SnapTube Audio\nice')
 songs=os.listdir()
 for s in songs:
     playlist.insert(END,s)
